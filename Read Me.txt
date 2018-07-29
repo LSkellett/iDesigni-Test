@@ -1,0 +1,15 @@
+Run on a PHP server and open index page
+
+To delete any event, just press the "delete event" button
+
+To see the event and details about it's attendees click "see event" button
+and to add an attendee fill out the details at the bottom of the page and select save
+Finally to remove an attendee just click the "remove" button beside the attendee that should be removed
+
+To create a New event click the "Add event" button on the top of the index page and fill out the required fields to create the event
+(Note: 2 events can not be created on the same day)
+
+To edit an event, click the "edit event" button on the index page beside the event you wish to edit and change the required details
+(Note: Same rule applies about no 2 events can be on the same day)
+
+To search the events, Click the "search events" button on the index to be taken to a page where you can fill out the required search fields and results will be shown on the same page
