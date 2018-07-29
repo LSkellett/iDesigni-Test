@@ -7,7 +7,6 @@
 <body>
 	<?php
 		$index = $_GET['index'];
-
 		$events = json_decode(file_get_contents('events.json'), true);	
 		
 		$event = $events['events'][$index];
@@ -48,12 +47,13 @@
 	?>
 	<hr>
 	<h3>Enter details here if you wish to join this event</h3>
-	<form >
-		<p> <label for="Name">Name:</label><input type="text" name="name" placeholder="Joe Bloggs"></p>
-		<p> <label for="email">E-mail:</label><input type="email" name="email" placeholder="J.Bloggs@email.org"></p>
+	<form method="POST">
+		<p> <label for="Name">Name:</label><input type="text" name="name" placeholder="Joe Bloggs" required></p>
+		<p> <label for="email">E-mail:</label><input type="email" name="email" placeholder="J.Bloggs@email.org" required></p>
 		<input type="submit" name="save" value="Save">
 	</form>
-	
+	<hr>
+	<a href="index.php"><button>Return to events List</button></a>
 	<?php
 		if(isset($_POST['save'])){
 			
@@ -62,7 +62,7 @@
 				'name' => $_POST['name'],
 				'email' => $_POST['email']
 			);
-
+			
 			array_push($events['events'][$index]['attendees'],$input);
 			file_put_contents('events.json',json_encode($events,JSON_PRETTY_PRINT));
 			

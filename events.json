@@ -1,11 +1,11 @@
 {
-    "events": [
-        {
-            "id": 0,
-            "date": "2016-04-01",
-            "time": "17:30",
+    "events": {
+        "0": {
+            "id": "0",
             "title": "Monday Footy",
             "description": "Guys please come on time",
+            "date": "2016-04-01",
+            "time": "17:00",
             "attendees": [
                 {
                     "id": 0,
@@ -29,12 +29,12 @@
                 }
             ]
         },
-        {
-            "id": 1,
-            "date": "2016-04-06",
-            "time": "17:30",
+        "1": {
+            "id": "1",
             "title": "Wed Footy",
             "description": "Guys please come on time",
+            "date": "2016-04-07",
+            "time": "17:30",
             "attendees": [
                 {
                     "id": 0,
@@ -68,40 +68,62 @@
                 }
             ]
         },
-        {
+        "2": {
             "id": 2,
-            "date": "2016-04-10",
-            "time": "17:30",
-            "title": "Monday Footy",
-            "description": "Guys please come on time",
+            "title": "Friday Night Games",
+            "description": "Video games At Johns Place",
+            "date": "2016-02-04",
+            "time": "19:00",
             "attendees": [
                 {
                     "id": 0,
-                    "name": "Me",
-                    "email": "help@google.com"
+                    "name": "Harry",
+                    "email": "virginia@roach.gl"
+                },
+                {
+                    "id": 1,
+                    "name": "Kenneth",
+                    "email": "herbert@hinson.bj"
+                },
+                {
+                    "id": 2,
+                    "name": "Joe",
+                    "email": "Bloggs@gmail.com"
                 }
             ]
         },
-        {
-            "id": 3,
-            "date": "2016-04-16",
-            "time": "17:30",
-            "title": "WEd Footy",
-            "description": "Guys please come on time"
-        },
-        {
+        "4": {
             "id": 4,
-            "date": "2016-04-27",
-            "time": "17:30",
-            "title": "Friday Footy",
-            "description": "Guys please come on time"
+            "title": "Drinks Night",
+            "description": "Hive Till Five",
+            "date": "2016-05-07",
+            "time": "21:00",
+            "attendees": [
+				{
+					"id": 3,
+					"name": "Joan",
+					"email": "sara@sims.sk"
+				},
+				{
+					"id": 4,
+					"name": "Jason",
+					"email": "jessica@baldwin.kr"
+				}
+			]
         },
-        {
+        "5": {
             "id": 5,
-            "date": "2016-05-02",
-            "time": "17:30",
-            "title": "Game in may",
-            "description": "Guys please come on time"
+            "title": "Movie Night",
+            "description": "Come to Pete's Place",
+            "date": "2016-05-18",
+            "time": "19:00",
+            "attendees": [
+                {
+                    "id": 0,
+                    "name": "Jimmy",
+                    "email": "Peterson@high.com"
+                }
+            ]
         }
-    ]
+    }
 }
